@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#LabsReport</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="titulo">
+                   
+            <a class="titulo_contato" href="mailto:fcavalcante@puc-rio.br">Contato</a>
+            <a class="titulo_projeto" >#LabsReport</a> 
+        </header>
+
+    <main class="info">
+        <section class="info_conteudo">
+            <h1 class="info_conteudo_titulo">Registre sua contribuição no sistema<strong 
+            class="titulo_destaque"> #LabsReport
+            </strong>!</h1>
+            <p class="info_conteudo_texto">Esse espaço foi feito para que nossos colaboradores 
+		    nos ajudem a melhorar! Tem uma sugestão ou identificou algum problema em nosso ambiente de trabalho? Reporte!</p>
+
+	<section class="newItem">
+       
+        <input type="text" id="newInput" placeholder="Descrição:">
+        <input type="text" id="newLocal" placeholder="Local:">
+        <input type="text" id="newAutor" placeholder="Autor:">
+        <span onclick="newItem()" class="addBtn"> + </span>
+   	 </section>
+
+	<section>
+        <table id="myTable">
+            <tr>
+                <th>REPORTES</th>
+                <th>LOCAL</th>
+                <th>AUTOR</th>
+                <th><img src="img/lixomod.png" width="14px" height="16px"></th>
+            </tr>
+        </table>
+
+</section>
+        <script src="scripts.js"></script>
+    </main>
+    
+    <footer></footer>
+</body>
+
+</html>
